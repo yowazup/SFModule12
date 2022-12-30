@@ -32,7 +32,7 @@ namespace SFModule12
             foreach (User user in users)
                 if (user.IsPremium is true)
                 {
-                    Console.WriteLine("Добрые день {0}, вы молодец - у вас премиальная подписка. Просто хотелось вам это сказать.", user.Name);
+                    Console.WriteLine("Добрый день {0}, вы молодец - у вас премиальная подписка. Просто хотелось вам это сказать.", user.Name);
                     Console.WriteLine();
                 }
                 else
